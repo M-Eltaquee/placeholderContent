@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ececec;
+}
+img{
+  max-width: 100%;
+}
+.card{
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 350px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.card-header{
+  height: 200px;
+}
+.card-header img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.card-content{
+  background-color: #fff;
+  padding: 30px;
+}
+.card-title{
+height: 20px;
+margin: 0;
+}
+.card-excerpt{
+  color: #777;
+  margin: 10px 0 20px
+}
+.author{
+  display: flex;
+
+}
+.profile-img{
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  overflow: hidden;
+  height: 40px;
+  width: 40px;
+}
+.author-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+  width: 100px;
+}
+.author-info smal{
+  color: #aaa;
+  margin-top: 5px;
+}
+.animated-bg {
+  background-image: linear-gradient(    to right,   #f6f7f8 0%,  #edeef1 10%,  #f6f7f8 20%,  #f6f7f8 100%  );
+  background-size: 200% 100% ;
+  animation: placeholder 1s linear infinite;
+  -webkit-animation: placeholder 1s linear infinite;
+}
+.animated-bg-text{
+  margin: 0;
+  height: 10px;
+  width: 100%;
+  display: inline-block;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+@keyframes placeholder {
+  0%{
+    background-position: 50% 0;
+  }
+  100%{
+    background-position: -150% 0;
+  }
+}
